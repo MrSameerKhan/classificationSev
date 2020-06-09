@@ -1,0 +1,50 @@
+Training:
+
+a.Place the dataset in Train/data folder in following stucture.
+├── "data"                   
+|   ├── train
+|   |   ├── class_1_images
+|   |   ├── class_2_images
+|   |   ├── class_X_images
+|   |   ├── .....
+|   ├── val
+|   |   ├── class_1_images
+|   |   ├── class_2_images
+|   |   ├── class_X_images
+|   |   ├── .....
+
+
+b.Run the following command for training
+
+  1. python main.py --model ResNet50 --num_epochs [enter the num]
+                           or
+  2. python main.py --model VGG16 --num_epochs [enter the num]
+                           or
+  3. python main.py --model VGG19 --num_epochs [enter the num]
+                           or
+  4. python main.py --model InceptionV3 --num_epochs [enter the num]
+                           or
+  5. python main.py --model Xception --num_epochs [enter the num]
+                           or
+  6. python main.py --model InceptionResNetV2 --num_epochs [enter the num]
+                           or
+  7. python main.py --model MobileNet --num_epochs [enter the num]
+                           or
+  8. python main.py --model DenseNet121 --num_epochs [enter the num]
+                           or
+  9. python main.py --model DenseNet201 --num_epochs [enter the num]
+                           or
+  10.python main.py --model NASNetLarge --num_epochs [enter the num]
+			  or
+  11. main.py --model NASNetLarge --num_epochs [enter the num]
+     
+
+c. place the checkpoint files in predict folder
+
+d. place the image files in test_images folder
+
+e. Run the following command to predict
+   Python pred.py 
+                           
+                      
+
